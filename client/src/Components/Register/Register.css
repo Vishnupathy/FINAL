@@ -1,0 +1,94 @@
+.register_container {
+    position: fixed;
+    height: 40vh;
+    width: 60vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    padding: 50px;
+  }
+
+  #a1{
+    font-family: DM Sans;
+font-size: 34px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+
+  p{
+    
+
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+
+  input{
+    position: absolute;
+    width: 260px;
+height: 25px;
+left: 200px;
+border: 1px solid black;
+
+
+  }
+
+  #Reg{
+    position: relative;
+    
+    width: 129px;
+height: 45px;
+top: 51px;
+font-size: larger;
+
+border-radius: 20px;
+background-color:  rgba(115, 171, 255, 1);
+
+
+  }
+  
+  #closebutton {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid red;
+    color: red;
+
+    cursor: pointer;
+  }
+  
+ /* .password-input-container {
+    position: relative;
+  }
+  
+  .password-input {
+    width: 100%;
+    padding-right: 40px; /* Space for the toggle button 
+  }*/
+  
+  
+  .password-toggle-button {
+    position: absolute;
+    top: 51%;
+    right: 105px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  

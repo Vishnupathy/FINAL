@@ -1,0 +1,104 @@
+.story_container {
+    position: fixed;
+    height: 50vh;
+    width: 70vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
+  
+.Form_container{
+    height: 35vh;
+    width: 94%;
+    
+    margin-top: 100px;
+
+}
+
+#description{
+    height: 100px;
+    
+
+    text-align: left;
+    vertical-align: top;}
+
+#image{
+    position: absolute;
+    top: 260px;
+
+}
+
+#image1{
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    
+}
+
+#category{
+    position: absolute;
+    top: 300px;
+}
+
+#cat{
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    height: 30px;
+    width: 270px;
+
+}
+
+#previous{
+    position: absolute;
+    
+    width: 115px;
+height: 41px;
+top: 325px;
+left: 41px;
+border-radius: 20px;
+background: rgba(126, 255, 115, 1);
+color: white;
+
+}
+
+
+#next{
+    position: absolute;
+    
+    width: 115px;
+height: 41px;
+top: 325px;
+left: 167px;
+border-radius: 20px;
+background: rgba(115, 171, 255, 1);
+
+color: white;
+
+}
+
+#post{
+    position: absolute;
+    
+    width: 115px;
+height: 41px;
+top: 124px;
+left: 435px;
+border-radius: 20px;
+background: rgba(255, 115, 115, 1);
+
+
+color: white;
+
+}
+
+/* Story.css */
+
+

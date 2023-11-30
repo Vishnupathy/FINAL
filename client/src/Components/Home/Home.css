@@ -1,0 +1,214 @@
+.swip_body {
+    height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+  }
+  
+  .swipbar{
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    background-color: yellow;
+  }
+  
+  #swiptory {
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0;
+    color: black;
+  }
+
+
+  #Register{
+    position: absolute;
+    top: 20px;
+    right: 250px;
+    height: 40px;
+    width: 100px;
+    border-radius: 31px;
+    background-color: red;
+  }
+
+  
+  #Sign{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    height: 40px;
+    width: 100px;
+    border-radius: 31px;
+    background-color:rgba(115, 171, 255, 1);
+    ;
+  }
+
+/* Home.css */
+/* ... other styles ... */
+
+.category-container {
+
+ 
+  position: absolute;
+  top: 10vh;
+
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background-color: bisque;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 10px;
+  transition: transform 0.1s ease-in-out;
+  overflow: hidden;
+  position: relative;
+}
+
+.inner-carousel {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-container {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 20vh;
+
+
+  overflow: hidden;
+  position: relative;
+  padding: 12px;
+}
+
+.item-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 31px;
+}
+
+.image-text {
+  position: absolute;
+  top: 67px;
+  padding-left: 35px;
+  text-align: center;
+}
+
+.story{
+
+  position: absolute;
+  top: 35.7vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  width: 100%;
+  
+  background-color: red;
+  font-family: DM Sans;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 10;
+
+}
+
+
+
+
+.category_container1 {
+  position: absolute;
+  top: 40vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  height: 27vh;
+  background-color: blue;
+  flex-direction: row;
+}
+/* Home.css */
+/* Add your existing styles here */
+
+
+
+.image-wrapper {
+  position: relative;
+  flex: 0 0 auto; /* Maintain original image size */
+  /*margin-right: 10px; Add margin for spacing between images */
+}
+
+.image-item {
+  max-width: 100%; /* Limit image width to container width */
+  height: 170px;
+  padding-left: 20px;
+  padding-right: 15px;
+  height: 100%;
+  object-fit: cover;
+  width: 250px;
+}
+
+.text-overlay {
+  position: absolute;
+
+
+  top: 2500px;
+  color:black;
+  font-size: 14px;
+}
+
+
+.category_stories{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 67.5vh;
+  height: 15vh;
+  background-color:pink;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+#see{
+  position: absolute;
+  top: 0px;
+  height: 45px;
+  width: 150px;
+  border-radius: 31px;
+  background-color: red;
+  font-size: large;
+
+}
+
+
+#Top{
+  position: absolute;
+  top: 35px;
+
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 10;
+
+  }
+
+    
+.category-container2 {
+  position: absolute;
+  top: 69vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  height: 28vh;
+  background-color:orange;
+  flex-direction: row;
+}
